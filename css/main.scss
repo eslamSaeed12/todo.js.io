@@ -1,0 +1,235 @@
+
+
+/*
+    author : eslam saeed mohamed hassanen
+    email : islam.s.mhmd1998@gmail.com
+*/
+
+
+body {
+  section>div {
+    background: #262626;
+    color: #f2f2f2;
+  }
+
+  overflow: hidden;
+  color: #212529 !important;
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  .form-group {
+    position: relative;
+
+    span {
+      font: {
+        size: 1.5em;
+      }
+
+      text-transform: uppercase;
+    }
+  }
+
+  .form-control {
+    width: 25%;
+    display: inline-block;
+  }
+
+  .removeText {
+    position: absolute;
+    top: 27px;
+    right: 37.5%;
+    color: #262626;
+    opacity: 0.4;
+    transition: opacity 0.25s ease;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .taskBtn {
+    margin: {
+      bottom: 20px;
+    }
+
+    color: #fff !important;
+  }
+
+  .taskItem {
+    text-transform: lowercase;
+
+    font : {
+      size: 1.2em;
+    }
+  }
+
+  input[type="checkbox"] {
+    font: {
+      size: 1.2em;
+    }
+  }
+
+  .del-item {
+    cursor: pointer;
+    color: #212529;
+    opacity: 0.6;
+    transition: all 0.25s ease-in;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .delIcon {
+    visibility: hidden;
+  }
+
+  section>div {
+    box-shadow: 0.5px 1.5px 3.5px 0.5px #404040;
+    padding: 2em;
+  }
+
+  div>.lead {
+    border-bottom: 2px solid #0d6ba6;
+    display: inline-block;
+    padding-bottom: 0.5em;
+  }
+
+  @-webkit-keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+
+  @-webkit-keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+
+  @keyframes hvr-bob-float {
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+
+  .hvr-bob {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: 0.3s, 1.5s;
+    animation-duration: 0.3s, 1.5s;
+    -webkit-animation-delay: 0s, 0.3s;
+    animation-delay: 0s, 0.3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
+
+  .rad-circle {
+    border: {
+      radius: 50%;
+    }
+  }
+
+  // editing the buttons colors
+  .btn-warning {
+    background: {
+      color: #f2f2f2 !important;
+    }
+
+    border-color: unset !important;
+    color: #404040;
+
+    &:hover,
+    &:focus,
+    &:active {
+      box-shadow: unset !important;
+    }
+  }
+
+  .btn-danger {
+    background-color: #f2f2f2 !important;
+    border-color: #f2f2f2 !important;
+    transition: all 0.25s ease;
+
+    &:hover,
+    &:focus,
+    &:active {
+      box-shadow: unset !important;
+    }
+  }
+
+  .list-group-item {
+    max-width: 400px;
+    border-radius: 50px !important;
+    margin: 1em auto;
+  }
+
+  button>i {
+    color: #404040;
+    /* transition: all 0.1s ease; */
+  }
+
+  .hvr-customClr:focus,
+  .hvr-customClr:active {
+    background-color: #0d6ba6 !important;
+    border-color: #0d6ba6 !important;
+    transform: scale(1.2);
+
+    &:active i,
+    &:focus i {
+      color: #f2f2f2 !important;
+    }
+
+    &:hover {
+      filter: unset !important;
+    }
+  }
+
+  .hvr-customClr:hover {
+    filter: brightness(70%);
+  }
+}

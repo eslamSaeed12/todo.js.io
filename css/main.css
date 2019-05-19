@@ -1,0 +1,179 @@
+/*
+    author : eslam saeed mohamed hassanen
+    email : islam.s.mhmd1998@gmail.com
+*/
+body {
+  overflow: hidden;
+  color: #212529 !important;
+}
+body section > div {
+  background: #262626;
+  color: #f2f2f2;
+}
+body h1 {
+  text-transform: uppercase;
+}
+body .form-group {
+  position: relative;
+}
+body .form-group span {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+body .form-control {
+  width: 25%;
+  display: inline-block;
+}
+body .removeText {
+  position: absolute;
+  top: 27px;
+  right: 37.5%;
+  color: #262626;
+  opacity: 0.4;
+  transition: opacity 0.25s ease;
+  cursor: pointer;
+}
+body .removeText:hover {
+  opacity: 1;
+}
+body .taskBtn {
+  margin-bottom: 20px;
+  color: #fff !important;
+}
+body .taskItem {
+  text-transform: lowercase;
+  font-size: 1.2em;
+}
+body input[type=checkbox] {
+  font-size: 1.2em;
+}
+body .del-item {
+  cursor: pointer;
+  color: #212529;
+  opacity: 0.6;
+  transition: all 0.25s ease-in;
+}
+body .del-item:hover {
+  opacity: 1;
+}
+body .delIcon {
+  visibility: hidden;
+}
+body section > div {
+  box-shadow: 0.5px 1.5px 3.5px 0.5px #404040;
+  padding: 2em;
+}
+body div > .lead {
+  border-bottom: 2px solid #0d6ba6;
+  display: inline-block;
+  padding-bottom: 0.5em;
+}
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+body .hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: 0.3s, 1.5s;
+  animation-duration: 0.3s, 1.5s;
+  -webkit-animation-delay: 0s, 0.3s;
+  animation-delay: 0s, 0.3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+body .rad-circle {
+  border-radius: 50%;
+}
+body .btn-warning {
+  background-color: #f2f2f2 !important;
+  border-color: unset !important;
+  color: #404040;
+}
+body .btn-warning:hover, body .btn-warning:focus, body .btn-warning:active {
+  box-shadow: unset !important;
+}
+body .btn-danger {
+  background-color: #f2f2f2 !important;
+  border-color: #f2f2f2 !important;
+  transition: all 0.25s ease;
+}
+body .btn-danger:hover, body .btn-danger:focus, body .btn-danger:active {
+  box-shadow: unset !important;
+}
+body .list-group-item {
+  max-width: 400px;
+  border-radius: 50px !important;
+  margin: 1em auto;
+}
+body button > i {
+  color: #404040;
+  /* transition: all 0.1s ease; */
+}
+body .hvr-customClr:focus,
+body .hvr-customClr:active {
+  background-color: #0d6ba6 !important;
+  border-color: #0d6ba6 !important;
+  transform: scale(1.2);
+}
+body .hvr-customClr:focus:active i, body .hvr-customClr:focus:focus i,
+body .hvr-customClr:active:active i,
+body .hvr-customClr:active:focus i {
+  color: #f2f2f2 !important;
+}
+body .hvr-customClr:focus:hover,
+body .hvr-customClr:active:hover {
+  filter: unset !important;
+}
+body .hvr-customClr:hover {
+  filter: brightness(70%);
+}
+
+/*# sourceMappingURL=main.css.map */

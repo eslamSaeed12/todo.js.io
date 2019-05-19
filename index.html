@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>training</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/hover-min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <section class="taskApplication">
+    <div class="container mt-5">
+      <div class="arrow text-center header text-center bounceInLeft">
+        <h1 class="display-4 text-center pb-2">
+          Task List
+        </h1>
+        <i class="fa fa-arrow-down fa-2x hvr-bob text-center"></i>
+      </div>
+      <form role="form" class="text-center" autocomplete="off">
+        <div class="form-check">
+          <ol class="olTaskList my-3 list-group-flush"></ol>
+        </div>
+
+        <div class="form-group mt-5">
+          <span class="pr-3">Add Task</span>
+          <input type="text" name="taskInput" id="taskInput" class="form-control mr-3" />
+          <i class="removeText fa fa-times"></i>
+          <button type="button" name="submit" id="addTaskBtn"
+            class="mt-3 btn btn-warning taskBtn rad-circle mr-1 hvr-customClr">
+            <i class="fa fa-plus"></i>
+          </button>
+
+          <button type="button" name="delete" id="deleteBtn"
+            class="mt-3 btn btn-danger taskBtn rad-circle ml-1 hvr-customClr">
+            <i class="fa fa-trash"></i>
+          </button>
+        </div>
+        <div class="errorsMessage">
+          <p class="lead"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+  <script src="js/jquery-3.4.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/plugins.js"></script>
+</body>
+
+</html>
